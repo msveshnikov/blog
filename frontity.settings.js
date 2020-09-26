@@ -2,9 +2,9 @@ const settings = {
   name: "blog",
   state: {
     frontity: {
-      url: "https://test.frontity.org",
-      title: "Test Frontity Blog",
-      description: "WordPress installation for Frontity development",
+      url: "https://extender.tk",
+      title: "Jessika Blog",
+      description: "Site of Lady Justice",
     },
   },
   packages: [
@@ -14,10 +14,10 @@ const settings = {
         theme: {
           menu: [
             ["Home", "/"],
-            ["Nature", "/category/nature/"],
+            ["Nature", "/category/priroda/"],
             ["Travel", "/category/travel/"],
-            ["Japan", "/tag/japan/"],
-            ["About Us", "/about-us/"],
+            ["Architect", "/category/arhitektura/"],
+            ["Animals", "/category/zhivotnyie/"],
           ],
           featured: {
             showOnList: false,
